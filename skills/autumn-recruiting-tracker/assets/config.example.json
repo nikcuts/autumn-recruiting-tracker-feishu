@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "setup_complete": false,
+  "timezone": "Asia/Shanghai",
+  "feishu": {
+    "brand": "feishu",
+    "base_url": "",
+    "base_token": "",
+    "table_id": "",
+    "view_id": "",
+    "calendar_id": "primary"
+  },
+  "local_calendar": {
+    "enabled": false,
+    "provider": "",
+    "calendar_name": ""
+  },
+  "mail": {
+    "enabled": false,
+    "provider": "",
+    "account_name": "",
+    "address": "",
+    "read_only": true
+  },
+  "preferences": {
+    "reminder_hours_before": [24, 1],
+    "daily_summary_time": "21:00",
+    "stagnation_days": [7, 14],
+    "email_sync_mode": "confirm_before_write"
+  }
+}
+
