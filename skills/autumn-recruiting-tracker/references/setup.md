@@ -27,5 +27,4 @@
 
 ## 5. 后续可选集成
 
-用户明确要求时再配置本地日历或邮件。macOS 使用已授权的 Calendar/Mail 接口；Windows 不假定存在统一接口，只有当前环境有受支持的 Outlook/Microsoft 365 连接器且用户授权后才启用，否则继续只使用飞书。
-
+用户明确要求时再配置本地日历或邮件。macOS 读取并遵循 [macOS 可选模块](macos.md)；Windows 不假定存在统一接口，只有当前环境有受支持的 Outlook/Microsoft 365 连接器且用户授权后才启用，否则继续只使用飞书。

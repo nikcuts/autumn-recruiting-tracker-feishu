@@ -25,6 +25,8 @@
 
 首次使用会询问飞书/Lark、已有 Base 或新建 Base、目标表、飞书日历以及提醒偏好。默认只启用飞书 Base 和飞书日历；本地日历、邮箱监控等可选能力不会阻塞核心设置。
 
+macOS 用户可以在完成核心设置后，按 [macOS 可选模块](skills/autumn-recruiting-tracker/references/macos.md) 启用 Calendar 同步和 Mail.app 招聘邮件只读监控。模块会先发现本机账户和日历并让用户选择，不会使用仓库作者的个人配置。
+
 表格至少需要公司、岗位、工作地点、投递日期、投递链接、投递进度、笔面试提醒和招聘信息等字段。修改已有表结构前，Skill 会先展示差异并等待确认。
 
 可参考 [首次设置向导](skills/autumn-recruiting-tracker/references/setup.md) 和 [示例配置](skills/autumn-recruiting-tracker/assets/config.example.json)。
@@ -46,6 +48,7 @@
 - 飞书授权范围应按实际需要授予；默认不接入本地邮箱和本地日历。
 - 邮件监控（如用户自行启用）只读，并在发现招聘邮件后先通知用户。
 - 日程同步只写入用户明确授权的日历；Skill 不会擅自删除、移动或改期。
+- macOS 定时巡检只有在用户明确确认后才创建；没有新招聘邮件或需要处理的变化时保持安静。
 
 详细说明见 [PRIVACY.md](PRIVACY.md)。
 
@@ -56,4 +59,3 @@
 ## License
 
 MIT
-
